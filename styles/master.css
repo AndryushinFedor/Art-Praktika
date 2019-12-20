@@ -467,9 +467,9 @@ footer {
     position: absolute;
     width: 17px;
     height: 4038px;
-    left: 303px;
+    left: 300px;
     top: 987px;
-    display: block;
+    display: flex;
   }
 
   .vetka {
@@ -477,7 +477,7 @@ footer {
   }
 
   .vetka2 {
-    display: block;
+    display: flex;
     position: absolute;
     width: 320px;
     height: 480px;
