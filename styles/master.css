@@ -101,7 +101,7 @@ p {
 
 .hrono_1 {
   position: absolute;
-  right: 50px;
+  right:7%;
   top: 60px;
   font-weight: bold;
   font-size: 5rem;
@@ -109,7 +109,7 @@ p {
 
 .hrono_2 {
   position: absolute;
-  right: 50px;
+  right:7%;
   bottom: 60px;
   font-weight: bold;
   font-size: 5rem;
@@ -143,7 +143,7 @@ p {
 
 .hrono_3 {
   position: absolute;
-  right: 3%;
+  right:7%;
   top: 60px;
   font-weight: bold;
   font-size: 5rem;
@@ -152,7 +152,7 @@ p {
 
 .hrono_4 {
   position: absolute;
-  right: 50px;
+  right:7%;
   bottom: 60px;
   font-weight: bold;
   font-size: 5rem;
@@ -180,7 +180,7 @@ p {
 
 .hrono_5 {
   position: absolute;
-  right: 50px;
+  right:7%;
   bottom: 100px;
   font-weight: bold;
   font-size: 5rem;
@@ -206,7 +206,7 @@ p {
 
 .hrono_6 {
   position: absolute;
-  right: 3%;
+  right:7%;
   top: 60px;
   font-weight: bold;
   font-size: 5rem;
@@ -214,7 +214,7 @@ p {
 
 .hrono_7 {
   position: absolute;
-  right: 3%;
+  right:7%;
   bottom: 160px;
   font-weight: bold;
   font-size: 5rem;
@@ -241,7 +241,7 @@ p {
 
 .hrono_8 {
   position: absolute;
-  right: 3%;
+  right:7%;
   top: 60px;
   font-weight: bold;
   font-size: 5rem;
@@ -267,7 +267,7 @@ p {
 
 .hrono_9 {
   position: absolute;
-  right: 3%;
+  right:7%;
   top: 60px;
   font-weight: bold;
   font-size: 5rem;
@@ -275,7 +275,7 @@ p {
 
 .hrono_10 {
   position: absolute;
-  right: 3%;
+  right:7%;
   bottom: 160px;
   font-weight: bold;
   font-size: 5rem;
@@ -302,7 +302,7 @@ p {
 
 .hrono_11 {
   position: absolute;
-  right: 3%;
+  right:7%;
   bottom: 160px;
   font-weight: bold;
   font-size: 5rem;
@@ -320,7 +320,7 @@ p {
 
 .hrono_12 {
   position: absolute;
-  right: 3%;
+  right:7%;
   top: 60px;
   font-weight: bold;
   font-size: 5rem;
@@ -902,7 +902,7 @@ footer {
     position: absolute;
     bottom: 6%;
     margin-left: 2.5%;
-    width: 50%;
+    width: 0%;
   }
 
   .hrono_1 {
@@ -1159,7 +1159,270 @@ footer {
 
 
 @media screen and (max-width: 320px) {
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 40px;
+
+
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2rem;
+  }
+
+  .cover_2 h1 {
+    padding-bottom: 50px;
+  }
+
+  p {
+   font-size: 2rem;
+  }
+
+
+  .vetka2 {
+    width: auto;
+    height: calc( 100vh - 18rem );
+
+  }
+
+  .mamonth p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 62%;
+  }
+
   .mamonth_2 {
+    width: 90%;
+    margin-top: 40%;
+    margin-left: -1%;
+
+  }
+
+  .hrono_1 {
+    position: absolute;
+    right:10%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .hrono_2 {
+    position: absolute;
+    right:10%;
+    bottom: 150px;
+    font-weight: bold;
+    font-size: 2rem;
+
+  }
+  .line{font-size: 6rem;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+  }
+
+  .dodo p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 70%;
+
+  }
+
+  .dodo_2 {
     width: 95%;
-    margin-left: 2.5%
+    margin-left: -1%;
+    margin-top: 20%;
+
+  }
+
+  .hrono_3 {
+    position: absolute;
+    right:10%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 2rem;
+
+  }
+
+  .hrono_4 {
+    position: absolute;
+    right:10%;
+    bottom: 150px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .popug1 p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 60%;
+  }
+
+  .popug1_2 {
+    width: 95%;
+    margin-left: -1%;
+    margin-top: 55%;
+  }
+
+  .hrono_5 {
+    position: absolute;
+    right:10%;
+    bottom: 500px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .gagarka p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 55%;
+  }
+
+  .gagarka_2 {
+    width: 75%;
+    margin-left: -1%;
+    margin-top: 20%;
+  }
+
+  .hrono_6 {
+    position: absolute;
+    right:10%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .hrono_7 {
+    position: absolute;
+    right:10%;
+    bottom: 110px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .kvagga p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 80%;
+  }
+
+  .kvagga_2 {
+    width: 90%;
+    margin-left: -1%;
+    margin-top: 50%;
+  }
+
+  .hrono_8 {
+    position: absolute;
+    right:10%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .golub p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 60%;
+  }
+
+  .golub_2 {
+    width: 85%;
+    margin-left: -1%;
+    margin-top: 40%;
+  }
+
+  .hrono_9 {
+    position: absolute;
+    right:10%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .hrono_10 {
+    position: absolute;
+    right:10%;
+    bottom: 130px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+
+  .popug2 p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 75%;
+  }
+
+  .popug2_2 {
+    width: 95%;
+    margin-left: -1%;
+    margin-top: 50%;
+  }
+
+  .hrono_11 {
+    position: absolute;
+    right:10%;
+    bottom: 460px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+
+  .back h1 {
+    padding-top: 60%;
+  }
+
+  .hrono_12 {
+    position: absolute;
+    right:10%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FC9C3C;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .WWF {
+    width: 15px;
+    height: 23px;
+
+  }
+
+  .logo {
+    width: 23px;
+    height: 21px;
   }
