@@ -1,0 +1,1260 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic');
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.table {
+  position: absolute;
+  width: 104px;
+  height: 6637px;
+  left: 1301px;
+  top: 1210px;
+
+}
+
+.table2 {
+  display: none;
+}
+
+.vetka {
+  padding-top: 80px;
+  width: 1440px;
+  height: 700px;
+}
+
+.vetka2 {
+  display: none;
+}
+
+.mamonth_2 {
+  width: 717px;
+  height: 634px;
+  margin-left: 300px;
+
+}
+
+.dodo_2 {
+  width: 620px;
+  height: 674px;
+  margin-left: 400px;
+}
+
+.popug2_2 {
+  width: 779px;
+  height: 554px;
+  margin-left: 350px;
+}
+
+.gagarka_2 {
+  width: 500px;
+  height: 783px;
+  margin-left: 450px;
+}
+
+.kvagga_2 {
+  width: 697px;
+  height: 543px;
+  margin-left: 400px;
+}
+
+.golub_2 {
+  width: 661px;
+  height: 686px;
+  margin-left: 350px;
+}
+
+.popug1_2 {
+  width: 681px;
+  height: 576px;
+  margin-left: 350px;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 40px;
+
+
+}
+
+h2 {
+  font-size: 72px;
+}
+
+p {
+  font-size: 30px;
+
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cover {
+  height: 900px;
+  background-color: #E0E9FE;
+}
+
+.cover_2 h1 {
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 28px;
+
+}
+.cover_2 {
+  height: 400px;
+  background-color: #00000;
+
+
+}
+
+.mamonth {
+  height: 900px;
+  background-color: #FFF6E8;
+
+
+}
+
+.dodo {
+  height: 900px;
+  background-color: #FFEEDB;
+
+
+
+}
+
+.popug1 {
+  height: 900px;
+  background-color: #FFEACD;
+
+
+}
+
+.gagarka {
+  height: 900px;
+  background-color: #FFE0B5;
+
+
+}
+
+.kvagga {
+  height: 900px;
+  background-color: #FFD599;
+
+
+}
+
+.golub {
+  height: 900px;
+  background-color: #FFCD83;
+
+
+}
+
+.popug2 {
+  height: 900px;
+  background-color: #FFBF5C;
+
+
+}
+
+.back {
+  height: 900px;
+  background-color: #FC9C3C;
+
+
+}
+
+
+.hrono_1 {
+  position: absolute;
+  left: 1001px;
+  top: 1360px;
+  font-weight: bold;
+
+}
+
+.hrono_2 {
+  position: absolute;
+  left: 972px;
+  top: 2040px;
+  font-weight: bold;
+
+}
+
+.hrono_3 {
+  position: absolute;
+  left: 1161px;
+  top: 2380px;
+  font-weight: bold;
+
+}
+
+.hrono_4 {
+  position: absolute;
+  left: 1119px;
+  top: 2992px;
+  font-weight: bold;
+}
+
+.hrono_5 {
+  position: absolute;
+  left: 1075px;
+  top: 3844px;
+  font-weight: bold;
+
+}
+
+.hrono_6 {
+  position: absolute;
+  left: 1169px;
+  top: 4026px;
+  font-weight: bold;
+
+}
+
+.hrono_7 {
+  position: absolute;
+  left: 990px;
+  top: 4696px;
+  font-weight: bold;
+
+}
+
+.hrono_8 {
+  position: absolute;
+  left: 1128px;
+  top: 4990px;
+  font-weight: bold;
+
+}
+
+.hrono_9 {
+  position: absolute;
+  left: 1183px;
+  top: 5904px;
+  font-weight: bold;
+
+}
+
+.hrono_10 {
+  position: absolute;
+  left: 1128px;
+  top: 6518px;
+  font-weight: bold;
+
+}
+
+.hrono_11 {
+  position: absolute;
+  left: 1127px;
+  top: 7380px;
+  font-weight: bold;
+
+}
+
+.hrono_12 {
+  position: absolute;
+  left: 1178px;
+  top: 7740px;
+  font-weight: bold;
+
+}
+
+.WWF {
+  width: 100px;
+  height: 94px;
+}
+
+.logo {
+  width: 100px;
+  height: 94px;
+}
+
+footer {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FC9C3C;
+}
+
+.text {
+  text-align: center;
+  line-height: 30px;
+
+}
+
+.mamonth p {
+  position: absolute;
+  width: 403px;
+  height: 91px;
+  left: 27px;
+  top: 2011px;
+}
+
+.dodo p {
+  position: absolute;
+  width: 500px;
+  height: 89px;
+  left: 28px;
+  top: 2912px;
+}
+
+.popug1 p {
+  position: absolute;
+  width: 350px;
+  height: 90px;
+  left: 35px;
+  top: 3811px;
+}
+
+.gagarka p {
+  position: absolute;
+  width: 410px;
+  height: 90px;
+  left: 35px;
+  top: 4711px;
+}
+
+.kvagga p {
+  position: absolute;
+  width: 480px;
+  height: 90px;
+  left: 36px;
+  top: 5611px;
+}
+
+.golub p {
+  position: absolute;
+  width: 356px;
+  height: 58px;
+  left: 35px;
+  top: 6540px;
+}
+
+.popug2 p {
+  position: absolute;
+  width: 450px;
+  height: 122px;
+  left: 35px;
+  top: 7390px;
+}
+
+.back h1 {
+  padding-top: 400px;
+}
+
+@media (max-width: 320px) {
+
+  .cover {
+    height: 568px;
+    width: 320px;
+    background-color: #E0E9FE;
+  }
+
+  .cover_2 {
+    width: 320px;
+    height: 444px;
+    background-color: #00000;
+
+
+  }
+
+  .mamonth {
+    height: 568px;
+    width: 320px;
+    background-color: #FFF6E8;
+
+
+  }
+
+  .dodo {
+    height: 568px;
+    width: 320px;
+    background-color: #FFEEDB;
+
+
+
+  }
+
+  .popug1 {
+    height: 568px;
+    width: 320px;
+    background-color: #FFEACD;
+
+
+  }
+
+  .gagarka {
+    height: 568px;
+    width: 320px;
+    background-color: #FFE0B5;
+
+
+  }
+
+  .kvagga {
+    height: 568px;
+    width: 320px;
+    background-color: #FFD599;
+
+
+  }
+
+  .golub {
+    height: 568px;
+    width: 320px;
+    background-color: #FFCD83;
+
+
+  }
+
+  .popug2 {
+    height: 568px;
+    width: 320px;
+    background-color: #FFBF5C;
+
+
+  }
+
+  .back {
+    height: 270px;
+    width: 320px;
+    background-color: #FC9C3C;
+
+
+  }
+
+  footer {
+    height: 50px;
+    width: 320px;
+  }
+
+  .table {
+    display: none;
+  }
+
+  .table2 {
+    position: absolute;
+    width: 17px;
+    height: 4038px;
+    left: 300px;
+    top: 987px;
+    display: flex;
+  }
+
+  .vetka {
+    display: none;
+  }
+
+  .vetka2 {
+    display: flex;
+    position: absolute;
+    width: 320px;
+    height: 480px;
+    left: 0px;
+    top: 72px;
+
+  }
+
+
+  .mamonth_2 {
+    position: absolute;
+    width: 253px;
+    height: 221px;
+    left: 16px;
+    top: 1155px;
+    margin: 0;
+  }
+
+  .dodo_2 {
+    position: absolute;
+    width: 231px;
+    height: 249px;
+    left: 24px;
+    top: 1724px;
+    margin: 0;
+  }
+
+  .popug1_2 {
+    position: absolute;
+    width: 250px;
+    height: 178px;
+    left: 23px;
+    top: 2343px;
+    margin: 0;
+  }
+
+  .gagarka_2 {
+    position: absolute;
+    width: 224px;
+    height: 348px;
+    left: 26px;
+    top: 2799px;
+    margin: 0;
+  }
+
+  .kvagga_2 {
+    position: absolute;
+    width: 255px;
+    height: 202px;
+    left: 18px;
+    top: 3405px;
+    margin: 0;
+  }
+
+  .golub_2 {
+    position: absolute;
+    width: 281px;
+    height: 291px;
+    left: -4px;
+    top: 3970px;
+    margin: 0;
+  }
+
+  .popug2_2 {
+    position: absolute;
+    width: 297px;
+    height: 251px;
+    left: -6px;
+    top: 4525px;
+    margin: 0;
+  }
+
+  .cover h1 {
+    padding-top: 0;
+    font-size: 24px;
+    line-height: 30px;
+    position: absolute;
+    width: 182px;
+    height: 58px;
+    left: 64px;
+    top: 5px;
+  }
+
+  .cover_2 h1 {
+    padding-top: 0;
+    font-size: 24px;
+    line-height: 32px;
+    position: absolute;
+    width: 273px;
+    height: 26px;
+    left: 24px;
+    top: 654px;
+  }
+
+
+
+  h3 {
+    font-size: 18px;
+    position: absolute;
+    width: 274px;
+    height: 89px;
+    left: 23px;
+    top: 747px;
+    padding-top: 0;
+
+  }
+
+  h4 {
+    font-size: 14px;
+    position: absolute;
+    width: 295px;
+    height: 64px;
+    left: 13px;
+    top: 859px;
+    padding-top: 0;
+  }
+
+  p {
+    font-size: 14px;
+
+  }
+
+  span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .mamonth p {
+    position: absolute;
+    width: 195px;
+    height: 55px;
+    left: 8px;
+    top: 1505px;
+  }
+
+  .dodo p {
+    position: absolute;
+    width: 209px;
+    height: 54px;
+    left: 8px;
+    top: 2074px;
+  }
+
+  .popug1 p {
+    position: absolute;
+    width: 227px;
+    height: 34px;
+    left: 8px;
+    top: 2662px;
+  }
+
+  .gagarka p {
+    position: absolute;
+    width: 205px;
+    height: 54px;
+    left: 8px;
+    top: 3210px;
+  }
+
+  .kvagga p {
+    position: absolute;
+    width: 221px;
+    height: 54px;
+    left: 8px;
+    top: 3778px;
+  }
+
+  .golub p {
+    position: absolute;
+    width: 236px;
+    height: 34px;
+    left: 8px;
+    top: 4366px;
+  }
+
+  .popug2 p {
+    position: absolute;
+    width: 209px;
+    height: 72px;
+    left: 8px;
+    top: 4889px;
+  }
+
+  .back h1 {
+    position: absolute;
+    width: 320px;
+    height: 67px;
+    left: 0px;
+    top: 5071px;
+    padding: 0;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .hrono_1 {
+    position: absolute;
+    width: 136px;
+    height: 20px;
+    left: 152px;
+    top: 1044px;
+    font-weight: bold;
+
+  }
+
+  .hrono_2 {
+    position: absolute;
+    width: 151px;
+    height: 17px;
+    left: 141px;
+    top: 1437px;
+    font-weight: bold;
+
+  }
+
+  .hrono_3 {
+    position: absolute;
+    width: 59px;
+    height: 18px;
+    left: 230px;
+    top: 1600px;
+    font-weight: bold;
+
+  }
+
+  .hrono_4 {
+    position: absolute;
+    width: 82px;
+    height: 18px;
+    left: 210px;
+    top: 2034px;
+    font-weight: bold;
+  }
+
+  .hrono_5 {
+    position: absolute;
+    width: 99px;
+    height: 17px;
+    left: 193px;
+    top: 2188px;
+    font-weight: bold;
+
+  }
+
+  .hrono_6 {
+    position: absolute;
+    width: 55px;
+    height: 17px;
+    left: 237px;
+    top: 2752px;
+    font-weight: bold;
+
+  }
+
+  .hrono_7 {
+    position: absolute;
+    width: 138px;
+    height: 18px;
+    left: 152px;
+    top: 3169px;
+    font-weight: bold;
+
+  }
+
+  .hrono_8 {
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    left: 220px;
+    top: 3725px;
+    font-weight: bold;
+
+  }
+
+  .hrono_9 {
+    position: absolute;
+    width: 55px;
+    height: 21px;
+    left: 240px;
+    top: 3866px;
+    font-weight: bold;
+
+  }
+
+  .hrono_10 {
+    position: absolute;
+    width: 76px;
+    height: 22px;
+    left: 216px;
+    top: 4275px;
+    font-weight: bold;
+
+  }
+
+  .hrono_11 {
+    position: absolute;
+    width: 77px;
+    height: 20px;
+    left: 214px;
+    top: 4819px;
+    font-weight: bold;
+
+  }
+
+  .hrono_12 {
+    position: absolute;
+    width: 52px;
+    height: 17px;
+    left: 240px;
+    top: 4994px;
+    font-weight: bold;
+
+  }
+
+  .text {
+    position: absolute;
+    height: 50px;
+    left: 77px;
+    top: 5240px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .logo {
+    position: absolute;
+    width: 23px;
+    height: 21px;
+    left: 26px;
+  }
+
+  .WWF {
+    position: absolute;
+    width: 15px;
+    height: 23px;
+    left: 280px;
+  }
+
+
+
+}
+
+@media (max-width: 414px) {
+
+  .cover {
+    height: 736px;
+    width: 414px;
+    background-color: #E0E9FE;
+  }
+
+  .cover_2 {
+    width: 414px;
+    height: 736px;
+    background-color: #00000;
+
+
+  }
+
+  .mamonth {
+    height: 736px;
+    width: 414px;
+    background-color: #FFF6E8;
+
+
+  }
+
+  .dodo {
+    height: 736px;
+    width: 414px;
+    background-color: #FFEEDB;
+
+
+
+  }
+
+  .popug1 {
+    height: 736px;
+    width: 414px;
+    background-color: #FFEACD;
+
+
+  }
+
+  .gagarka {
+    height: 736px;
+    width: 414px;
+    background-color: #FFE0B5;
+
+
+  }
+
+  .kvagga {
+    height: 736px;
+    width: 414px;
+    background-color: #FFD599;
+
+
+  }
+
+  .golub {
+    height: 736px;
+    width: 414px;
+    background-color: #FFCD83;
+
+
+  }
+
+  .popug2 {
+    height: 736px;
+    width: 414px;
+    background-color: #FFBF5C;
+
+
+  }
+
+  .back {
+    height: 270px;
+    width: 414px;
+    background-color: #FC9C3C;
+
+
+  }
+
+  footer {
+    height: 50px;
+    width: 414px;
+  }
+
+  .table {
+    display: none;
+  }
+
+  .table2 {
+    position: absolute;
+    width: 17px;
+    height: 4038px;
+    left: 300px;
+    top: 987px;
+    display: flex;
+  }
+
+  .vetka {
+    display: none;
+  }
+
+  .vetka2 {
+    display: flex;
+    position: absolute;
+    width: 414px;
+    height: 480px;
+    left: 0px;
+    top: 72px;
+
+  }
+
+
+  .mamonth_2 {
+    position: absolute;
+    width: 253px;
+    height: 221px;
+    left: 16px;
+    top: 1155px;
+    margin: 0;
+  }
+
+  .dodo_2 {
+    position: absolute;
+    width: 231px;
+    height: 249px;
+    left: 24px;
+    top: 1724px;
+    margin: 0;
+  }
+
+  .popug1_2 {
+    position: absolute;
+    width: 250px;
+    height: 178px;
+    left: 23px;
+    top: 2343px;
+    margin: 0;
+  }
+
+  .gagarka_2 {
+    position: absolute;
+    width: 224px;
+    height: 348px;
+    left: 26px;
+    top: 2799px;
+    margin: 0;
+  }
+
+  .kvagga_2 {
+    position: absolute;
+    width: 255px;
+    height: 202px;
+    left: 18px;
+    top: 3405px;
+    margin: 0;
+  }
+
+  .golub_2 {
+    position: absolute;
+    width: 281px;
+    height: 291px;
+    left: -4px;
+    top: 3970px;
+    margin: 0;
+  }
+
+  .popug2_2 {
+    position: absolute;
+    width: 297px;
+    height: 251px;
+    left: -6px;
+    top: 4525px;
+    margin: 0;
+  }
+
+  .cover h1 {
+    padding-top: 0;
+    font-size: 26px;
+    line-height: 30px;
+    position: absolute;
+    width: 360px;
+    height: 31px;
+    left: 29px;
+    top: 50px;
+  }
+
+  .cover_2 h1 {
+    padding-top: 0;
+    font-size: 26px;
+    line-height: 32px;
+    position: absolute;
+    width: 273px;
+    height: 26px;
+    left: 24px;
+    top: 654px;
+  }
+
+
+
+  h3 {
+    font-size: 18px;
+    position: absolute;
+    width: 274px;
+    height: 89px;
+    left: 23px;
+    top: 747px;
+    padding-top: 0;
+
+  }
+
+  h4 {
+    font-size: 14px;
+    position: absolute;
+    width: 295px;
+    height: 64px;
+    left: 13px;
+    top: 859px;
+    padding-top: 0;
+  }
+
+  p {
+    font-size: 14px;
+
+  }
+
+  span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .mamonth p {
+    position: absolute;
+    width: 195px;
+    height: 55px;
+    left: 8px;
+    top: 1505px;
+  }
+
+  .dodo p {
+    position: absolute;
+    width: 209px;
+    height: 54px;
+    left: 8px;
+    top: 2074px;
+  }
+
+  .popug1 p {
+    position: absolute;
+    width: 227px;
+    height: 34px;
+    left: 8px;
+    top: 2662px;
+  }
+
+  .gagarka p {
+    position: absolute;
+    width: 205px;
+    height: 54px;
+    left: 8px;
+    top: 3210px;
+  }
+
+  .kvagga p {
+    position: absolute;
+    width: 221px;
+    height: 54px;
+    left: 8px;
+    top: 3778px;
+  }
+
+  .golub p {
+    position: absolute;
+    width: 236px;
+    height: 34px;
+    left: 8px;
+    top: 4366px;
+  }
+
+  .popug2 p {
+    position: absolute;
+    width: 209px;
+    height: 72px;
+    left: 8px;
+    top: 4889px;
+  }
+
+  .back h1 {
+    position: absolute;
+    width: 320px;
+    height: 67px;
+    left: 0px;
+    top: 5071px;
+    padding: 0;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .hrono_1 {
+    position: absolute;
+    width: 136px;
+    height: 20px;
+    left: 152px;
+    top: 1044px;
+    font-weight: bold;
+
+  }
+
+  .hrono_2 {
+    position: absolute;
+    width: 151px;
+    height: 17px;
+    left: 141px;
+    top: 1437px;
+    font-weight: bold;
+
+  }
+
+  .hrono_3 {
+    position: absolute;
+    width: 59px;
+    height: 18px;
+    left: 230px;
+    top: 1600px;
+    font-weight: bold;
+
+  }
+
+  .hrono_4 {
+    position: absolute;
+    width: 82px;
+    height: 18px;
+    left: 210px;
+    top: 2034px;
+    font-weight: bold;
+  }
+
+  .hrono_5 {
+    position: absolute;
+    width: 99px;
+    height: 17px;
+    left: 193px;
+    top: 2188px;
+    font-weight: bold;
+
+  }
+
+  .hrono_6 {
+    position: absolute;
+    width: 55px;
+    height: 17px;
+    left: 237px;
+    top: 2752px;
+    font-weight: bold;
+
+  }
+
+  .hrono_7 {
+    position: absolute;
+    width: 138px;
+    height: 18px;
+    left: 152px;
+    top: 3169px;
+    font-weight: bold;
+
+  }
+
+  .hrono_8 {
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    left: 220px;
+    top: 3725px;
+    font-weight: bold;
+
+  }
+
+  .hrono_9 {
+    position: absolute;
+    width: 55px;
+    height: 21px;
+    left: 240px;
+    top: 3866px;
+    font-weight: bold;
+
+  }
+
+  .hrono_10 {
+    position: absolute;
+    width: 76px;
+    height: 22px;
+    left: 216px;
+    top: 4275px;
+    font-weight: bold;
+
+  }
+
+  .hrono_11 {
+    position: absolute;
+    width: 77px;
+    height: 20px;
+    left: 214px;
+    top: 4819px;
+    font-weight: bold;
+
+  }
+
+  .hrono_12 {
+    position: absolute;
+    width: 52px;
+    height: 17px;
+    left: 240px;
+    top: 4994px;
+    font-weight: bold;
+
+  }
+
+  .text {
+    position: absolute;
+    height: 50px;
+    left: 77px;
+    top: 5240px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .logo {
+    position: absolute;
+    width: 23px;
+    height: 21px;
+    left: 26px;
+  }
+
+  .WWF {
+    position: absolute;
+    width: 15px;
+    height: 23px;
+    left: 280px;
+  }
+
+
+
+}
