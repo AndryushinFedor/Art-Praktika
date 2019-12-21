@@ -35,8 +35,6 @@ h4 {
   text-align: center;
   padding-top: 30px;
   font-size: 4rem;
-  width: 40%;
-
 }
 
 .scale{
@@ -68,7 +66,6 @@ p {
 .cover_2 {
   height: 50vh;
   background-color: #00000;
-
 }
 
 .vetka {
@@ -78,7 +75,7 @@ p {
 
 .vetka2 {
   width: auto;
-  height: calc( 100vh - 4rem );
+  height: calc( 100vh - 14rem );
   display: none;
 }
 
@@ -104,7 +101,7 @@ p {
 
 .hrono_1 {
   position: absolute;
-  right: -15%;
+  right: 50px;
   top: 60px;
   font-weight: bold;
   font-size: 5rem;
@@ -363,17 +360,806 @@ footer {
   .vetka2 {display:block; }
 
 }
+
+@media screen and (max-width: 1280px) {
+  h1 {
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 40px;
+
+
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3.5rem;
+  }
+
+  .cover_2 h1 {
+    padding-bottom: 50px;
+  }
+
+  p {
+   font-size: 3.5rem;
+  }
+
+  .mamonth p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 30%;
+  }
+
+  .hrono_1 {
+    position: absolute;
+    right: 50px;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+
+  .hrono_2 {
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+    font-weight: bold;
+    font-size: 3.5rem;
+
+  }
+  .line{font-size: 6rem;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+  }
+
+  .dodo {
+    height: 100vh;
+    background-color: #FFEEDB;
+    position: relative;
+
+  }
+
+  .dodo p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 40%;
+
+  }
+
+  .dodo_2 {
+    width: 44%;
+    margin-left: 25%;
+  }
+
+  .hrono_3 {
+    position: absolute;
+    right: 3%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.5rem;
+
+  }
+
+  .hrono_4 {
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+
+  .popug1 {
+    height: 100vh;
+    background-color: #FFEACD;
+    position: relative;
+
+  }
+
+  .popug1 p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 30%;
+  }
+
+  .popug1_2 {
+    width: 54%;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+
+  .hrono_5 {
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+
+  .gagarka {
+    height: 100vh;
+    background-color: #FFE0B5;
+    position: relative;
+  }
+
+  .gagarka p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 40%;
+  }
+
+  .gagarka_2 {
+    width: 32%;
+    margin-left: 30%;
+  }
+
+  .hrono_6 {
+    position: absolute;
+    right: 3%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+
+  .hrono_7 {
+    position: absolute;
+    right: 3%;
+    bottom: 160px;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+
+  .kvagga {
+    height: 100vh;
+    background-color: #FFD599;
+    position: relative;
+  }
+
+  .kvagga p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 35%;
+  }
+
+  .kvagga_2 {
+    width: 52%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .hrono_8 {
+    position: absolute;
+    right: 3%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+
+  .golub {
+    height: 100vh;
+    background-color: #FFCD83;
+    position: relative;
+  }
+
+  .golub p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 40%;
+  }
+
+  .golub_2 {
+    width: 48%;
+    margin-left: 25%;
+  }
+
+  .hrono_9 {
+    position: absolute;
+    right: 3%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+
+  .hrono_10 {
+    position: absolute;
+    right: 3%;
+    bottom: 160px;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+
+  .popug2 {
+    height: 100vh;
+    background-color: #FFBF5C;
+    position: relative;
+  }
+
+  .popug2 p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 60%;
+  }
+
+  .popug2_2 {
+    width: 52%;
+    margin-left: 25%;
+    margin-top: 3%;
+  }
+
+  .hrono_11 {
+    position: absolute;
+    right: 3%;
+    bottom: 160px;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+
+  .back {
+    height: 70vh;
+    background-color: #FC9C3C;
+    position: relative;
+  }
+
+  .back h1 {
+    padding-top: 22%;
+  }
+
+  .hrono_12 {
+    position: absolute;
+    right: 3%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+
+  footer {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FC9C3C;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+
+  .WWF {
+    width: 5%;
+
+  }
+
+  .logo {
+    width: 5%;
+  }
+
+
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 5.8rem;
+    text-align: center;
+    padding-top: 50px;
+
+
+  }
+
+  h2 {
+    font-size: 3.8rem;
+  }
+
+  h3 {
+    font-size: 3.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3.3rem;
+  }
+
+  .vetka {
+    padding-top: 100px;
+  }
+  .cover_2 h1 {
+    padding-bottom: 50px;
+  }
+
+  p {
+    font-size: 3.3rem;
+  }
+
+  .mamonth p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 34%;
+  }
+
+  .hrono_1 {
+    position: absolute;
+    right: 50px;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.3rem;
+  }
+
+  .hrono_2 {
+    position: absolute;
+    right: 7%;
+    bottom: 60px;
+    font-weight: bold;
+    font-size: 3.3rem;
+
+  }
+  .line{font-size: 6rem;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+  }
+
+
+  .dodo p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 40%;
+
+  }
+
+  .hrono_3 {
+    position: absolute;
+    right: 7%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.3rem;
+
+  }
+
+  .hrono_4 {
+    position: absolute;
+    right: 7%;
+    bottom: 60px;
+    font-weight: bold;
+    font-size: 3.3rem;
+  }
+
+  .popug1 p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 30%;
+  }
+
+  .hrono_5 {
+    position: absolute;
+    right: 7%;
+    bottom: 100px;
+    font-weight: bold;
+    font-size: 3.3rem;
+  }
+
+  .gagarka p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 38%;
+  }
+
+  .hrono_6 {
+    position: absolute;
+    right: 7%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.3rem;
+  }
+
+  .hrono_7 {
+    position: absolute;
+    right: 7%;
+    bottom: 160px;
+    font-weight: bold;
+    font-size: 3.3rem;
+  }
+
+  .kvagga p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 44%;
+  }
+
+  .kvagga_2 {
+    width: 52%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .hrono_8 {
+    position: absolute;
+    right: 7%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.3rem;
+  }
+
+  .golub p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 30%;
+  }
+
+  .hrono_9 {
+    position: absolute;
+    right: 7%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.3rem;
+  }
+
+  .hrono_10 {
+    position: absolute;
+    right: 7%;
+    bottom: 160px;
+    font-weight: bold;
+    font-size: 3.3rem;
+  }
+
+  .popug2 p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 40%;
+  }
+
+  .hrono_11 {
+    position: absolute;
+    right: 7%;
+    bottom: 160px;
+    font-weight: bold;
+    font-size: 3.3rem;
+  }
+
+  .back h1 {
+    padding-top: 26%;
+  }
+
+  .hrono_12 {
+    position: absolute;
+    right: 8%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3.3rem;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 3.3rem;
+  }
+
+
+}
+
 @media screen and (max-width: 720px) {
-  html, body {font-size: 12px;}
+  h1 {
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3rem;
+  }
+
+
+  .cover_2 h1 {
+
+    padding-bottom: 50px;
+  }
+
+  p {
+   font-size: 3rem;
+  }
+
+  .mamonth p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 50%;
+  }
+
+  .hrono_1 {
+    position: absolute;
+    right: 50px;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .hrono_2 {
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+    font-weight: bold;
+    font-size: 3rem;
+
+  }
+  .line{font-size: 6rem;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+  }
+
+  .dodo {
+    height: 100vh;
+    background-color: #FFEEDB;
+    position: relative;
+
+  }
+
+  .dodo p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 40%;
+
+  }
+
+  .dodo_2 {
+    width: 44%;
+    margin-left: 25%;
+  }
+
+  .hrono_3 {
+    position: absolute;
+    right: 3%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3rem;
+
+  }
+
+  .hrono_4 {
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .popug1 {
+    height: 100vh;
+    background-color: #FFEACD;
+    position: relative;
+
+  }
+
+  .popug1 p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 30%;
+  }
+
+  .popug1_2 {
+    width: 54%;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+
+  .hrono_5 {
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .gagarka {
+    height: 100vh;
+    background-color: #FFE0B5;
+    position: relative;
+  }
+
+  .gagarka p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 40%;
+  }
+
+  .gagarka_2 {
+    width: 32%;
+    margin-left: 30%;
+  }
+
+  .hrono_6 {
+    position: absolute;
+    right: 3%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .hrono_7 {
+    position: absolute;
+    right: 3%;
+    bottom: 160px;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .kvagga {
+    height: 100vh;
+    background-color: #FFD599;
+    position: relative;
+  }
+
+  .kvagga p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 35%;
+  }
+
+  .kvagga_2 {
+    width: 52%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .hrono_8 {
+    position: absolute;
+    right: 3%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .golub {
+    height: 100vh;
+    background-color: #FFCD83;
+    position: relative;
+  }
+
+  .golub p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 40%;
+  }
+
+  .golub_2 {
+    width: 48%;
+    margin-left: 25%;
+  }
+
+  .hrono_9 {
+    position: absolute;
+    right: 3%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .hrono_10 {
+    position: absolute;
+    right: 3%;
+    bottom: 160px;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .popug2 {
+    height: 100vh;
+    background-color: #FFBF5C;
+    position: relative;
+  }
+
+  .popug2 p {
+    position: absolute;
+    bottom: 6%;
+    margin-left: 2.5%;
+    width: 60%;
+  }
+
+  .popug2_2 {
+    width: 52%;
+    margin-left: 25%;
+    margin-top: 3%;
+  }
+
+  .hrono_11 {
+    position: absolute;
+    right: 3%;
+    bottom: 160px;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .back {
+    height: 70vh;
+    background-color: #FC9C3C;
+    position: relative;
+  }
+
+  .back h1 {
+    padding-top: 22%;
+  }
+
+  .hrono_12 {
+    position: absolute;
+    right: 3%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  footer {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FC9C3C;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .WWF {
+    width: 5%;
+
+  }
+
+  .logo {
+    width: 5%;
+  }
+
+}
+
 
 @media screen and (max-width: 320px) {
   .mamonth_2 {
     width: 95%;
     margin-left: 2.5%
   }
-
-  .hrono_1 {
-    top: 15px;
-  }
-}
-+7 911 848 14 50
