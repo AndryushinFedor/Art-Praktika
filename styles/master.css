@@ -37,7 +37,6 @@ h4 {
   padding-top: 50px;
   font-size: 4rem;
 }
-.txt {word-wrap: normal;}
 
 .scale{
   position: absolute;
@@ -73,8 +72,6 @@ p {
  font-size: 5rem;
 }
 
-
-
 .cover_2 {
   height: 50vh;
   background-color: #00000;
@@ -96,6 +93,7 @@ p {
 .mamonth img {
   opacity:0;
   transition: 2s opacity;
+  text-align: center;
  }
 
 .mamonth {
@@ -103,7 +101,7 @@ p {
   background-color: #FFF6E8;
   position: relative;
   background-image: url(../img/mamonth.png);
-  background-size: 40%;
+  background-size: 50%;
   background-position: center center;
   background-repeat: no-repeat;
 
