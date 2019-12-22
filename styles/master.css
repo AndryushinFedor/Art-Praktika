@@ -106,7 +106,6 @@ p {
   background-size: 50%;
   background-position: center center;
   background-repeat: no-repeat;
-
 }
 
 .mamonth:hover img {
@@ -154,6 +153,10 @@ p {
 .dodo img {
   opacity:0;
   transition: 2s opacity;
+  position: absolute;
+  top: 200px;
+  right: 500px;
+  width: 36%;
 }
 
 .dodo {
@@ -164,11 +167,12 @@ p {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 40%;
 }
 
 .dodo:hover img {
   opacity:1;
+
 }
 
 .dodo p {
@@ -210,11 +214,29 @@ p {
   bottom: 114px;
 }
 
+.popug1 img {
+  opacity:0;
+  transition: 2s opacity;
+  position: absolute;
+  top: 200px;
+  right: 550px;
+  width: 36%;
+ }
+
+
 .popug1 {
   height: 100vh;
   background-color: #FFEACD;
   position: relative;
+  background-image: url(../img/popug1.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
 
+.popug1:hover img {
+  opacity:1;
 }
 
 .popug1 p {
@@ -222,12 +244,6 @@ p {
   bottom: 6%;
   margin-left: 2.5%;
   width: 30%;
-}
-
-.popug1_2 {
-  width: 54%;
-  margin-left: 20%;
-  margin-top: 5%;
 }
 
 .hrono_5 {
@@ -245,11 +261,30 @@ p {
   top: 224px;
 }
 
+.gagarka img {
+  opacity:0;
+  transition: 2s opacity;
+  position: absolute;
+  top: 200px;
+  right: 620px;
+  width: 36%;
+ }
+
 .gagarka {
   height: 100vh;
   background-color: #FFE0B5;
   position: relative;
+  background-image: url(../img/gagarka.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 30%;
 }
+
+.gagarka:hover img {
+  opacity:1;
+}
+
 
 .gagarka p {
   position: absolute;
@@ -258,10 +293,6 @@ p {
   width: 30%;
 }
 
-.gagarka_2 {
-  width: 32%;
-  margin-left: 30%;
-}
 
 .hrono_6 {
   position: absolute;
@@ -293,23 +324,36 @@ p {
   bottom: 148px;
 }
 
+.kvagga img {
+  opacity:0;
+  transition: 2s opacity;
+  position: absolute;
+  top: 200px;
+  right: 600px;
+  width: 36%;
+ }
+
 .kvagga {
   height: 100vh;
   background-color: #FFD599;
   position: relative;
+  background-image: url(../img/kvagga.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 46%;
 }
+
+.kvagga:hover img {
+  opacity:1;
+}
+
 
 .kvagga p {
   position: absolute;
   bottom: 6%;
   margin-left: 2.5%;
   width: 35%;
-}
-
-.kvagga_2 {
-  width: 52%;
-  margin-left: 25%;
-  margin-top: 5%;
 }
 
 .hrono_8 {
@@ -327,22 +371,37 @@ p {
   top: 50px;
 }
 
+.golub img {
+  opacity:0;
+  transition: 2s opacity;
+  position: absolute;
+  top: 130px;
+  right: 580px;
+  width: 40%;
+ }
+
+
 .golub {
   height: 100vh;
   background-color: #FFCD83;
   position: relative;
+  background-image: url(../img/golub.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 44%;
 }
+
+.golub:hover img {
+  opacity:1;
+}
+
 
 .golub p {
   position: absolute;
   bottom: 6%;
   margin-left: 2.5%;
   width: 40%;
-}
-
-.golub_2 {
-  width: 48%;
-  margin-left: 25%;
 }
 
 .hrono_9 {
@@ -376,24 +435,36 @@ p {
   bottom: 154px;
 }
 
+.popug2 img {
+  opacity:0;
+  transition: 2s opacity;
+  position: absolute;
+  top: 200px;
+  right: 500px;
+  width: 36%;
+ }
 
 .popug2 {
   height: 100vh;
   background-color: #FFBF5C;
   position: relative;
+  background-image: url(../img/popug2.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 40%;
 }
+
+.popug2:hover img {
+  opacity:1;
+}
+
 
 .popug2 p {
   position: absolute;
   bottom: 6%;
   margin-left: 2.5%;
   width: 60%;
-}
-
-.popug2_2 {
-  width: 52%;
-  margin-left: 25%;
-  margin-top: 3%;
 }
 
 .hrono_11 {
@@ -472,6 +543,36 @@ footer {
 
 }
 
+@media screen and (max-width: 1680px) {
+  .gagarka img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 200px;
+    right: 500px;
+    width: 36%;
+   }
+
+   .kvagga img {
+     opacity:0;
+     transition: 2s opacity;
+     position: absolute;
+     top: 200px;
+     right: 550px;
+     width: 36%;
+    }
+
+    .golub img {
+      opacity:0;
+      transition: 2s opacity;
+      position: absolute;
+      top: 130px;
+      right: 480px;
+      width: 42%;
+     }
+
+}
+
 @media screen and (max-width: 1440px) {
 
   .cover_2 {
@@ -481,6 +582,70 @@ footer {
   h1 {
     padding-top: 10px;
   }
+
+  .mamonth img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 200px;
+    right: 430px;
+    width: 36%;
+   }
+
+  .dodo img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 170px;
+    right: 400px;
+    width: 36%;
+  }
+
+  .popug1 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 170px;
+    right: 350px;
+    width: 36%;
+  }
+
+  .gagarka img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 150px;
+    right: 450px;
+    width: 36%;
+  }
+
+  .kvagga img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 150px;
+    right: 450px;
+    width: 36%;
+  }
+
+  .golub img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 150px;
+    right: 450px;
+    width: 38%;
+  }
+
+  .popug2 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 150px;
+    right: 450px;
+    width: 36%;
+  }
+
   .hrono_1 {
     position: absolute;
     right:9%;
@@ -495,7 +660,6 @@ footer {
     bottom: 60px;
     font-weight: bold;
     font-size: 5rem;
-    transition: 2s color;
   }
 
   .line_1 {
@@ -509,11 +673,6 @@ footer {
     position: absolute;
     right: 70px;
     bottom: 54px;
-  }
-
-  .dodo_2 {
-    width: 44%;
-    margin-left: 25%;
   }
 
   .hrono_3 {
@@ -554,12 +713,6 @@ footer {
     width: 50%;
   }
 
-  .popug1_2 {
-    width: 54%;
-    margin-left: 20%;
-    margin-top: 5%;
-  }
-
   .hrono_5 {
     position: absolute;
     right:9%;
@@ -573,11 +726,6 @@ footer {
     position: absolute;
     right: 70px;
     top: 44px;
-  }
-
-  .gagarka_2 {
-    width: 32%;
-    margin-left: 30%;
   }
 
   .hrono_6 {
@@ -617,12 +765,6 @@ footer {
     width: 44%;
   }
 
-  .kvagga_2 {
-    width: 52%;
-    margin-left: 25%;
-    margin-top: 5%;
-  }
-
   .hrono_8 {
     position: absolute;
     right:9%;
@@ -643,11 +785,6 @@ footer {
     bottom: 6%;
     margin-left: 2.5%;
     width: 34%;
-  }
-
-  .golub_2 {
-    width: 48%;
-    margin-left: 25%;
   }
 
   .hrono_9 {
@@ -688,12 +825,6 @@ footer {
     width: 80%;
   }
 
-  .popug2_2 {
-    width: 52%;
-    margin-left: 25%;
-    margin-top: 3%;
-  }
-
   .hrono_11 {
     position: absolute;
     right:9%;
@@ -728,15 +859,12 @@ footer {
     top: 40px;
   }
 
-
 }
-
-
 
 @media screen and (max-width: 1366px) {
   h1 {
     font-size: 7rem;
-    padding-top: 40px;
+    padding-top: 10px;
   }
 
   h2 {
@@ -757,6 +885,69 @@ footer {
    font-size: 3.5rem;
   }
 
+  .mamonth img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 140px;
+    right: 430px;
+    width: 36%;
+   }
+
+  .dodo img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 140px;
+    right: 400px;
+    width: 36%;
+  }
+
+  .popug1 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 140px;
+    right: 350px;
+    width: 36%;
+  }
+
+  .gagarka img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 140px;
+    right: 450px;
+    width: 36%;
+  }
+
+  .kvagga img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 120px;
+    right: 450px;
+    width: 36%;
+  }
+
+  .golub img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 120px;
+    right: 420px;
+    width: 38%;
+  }
+
+  .popug2 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 140px;
+    right: 450px;
+    width: 36%;
+  }
+
   .scale{
     position: absolute;
     right:8px;
@@ -769,11 +960,6 @@ footer {
     z-index:1;
   }
 
-  .mamonth_2 {
-    width: 55%;
-    margin-left: 15%;
-
-  }
 
   .hrono_1 {
     position: absolute;
@@ -790,12 +976,6 @@ footer {
     font-weight: bold;
     font-size: 3.5rem;
 
-  }
-
-  .dodo_2 {
-    width: 40%;
-    margin-left: 25%;
-    margin-top: 5%;
   }
 
   .hrono_3 {
@@ -822,11 +1002,6 @@ footer {
     bottom: 56px;
   }
 
-  .popug1_2 {
-    width: 50%;
-    margin-left: 20%;
-    margin-top: 8%;
-  }
 
   .hrono_5 {
     position: absolute;
@@ -840,12 +1015,7 @@ footer {
     font-size: 8rem;
     position: absolute;
     right: 70px;
-    top: 50px;
-  }
-
-  .gagarka_2 {
-    width: 30%;
-    margin-left: 30%;
+    top: 18px;
   }
 
   .hrono_6 {
@@ -871,13 +1041,6 @@ footer {
     font-size: 3.5rem;
   }
 
-
-  .kvagga_2 {
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 5%;
-  }
-
   .hrono_8 {
     position: absolute;
     right:9%;
@@ -893,11 +1056,6 @@ footer {
     top: 38px;
   }
 
-  .golub_2 {
-    width: 45%;
-    margin-left: 25%;
-    margin-top: 5%;
-  }
 
   .hrono_9 {
     position: absolute;
@@ -930,16 +1088,10 @@ footer {
     bottom: 146px;
   }
 
-  .popug2_2 {
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 5%;
-  }
-
   .hrono_11 {
     position: absolute;
     right:9%;
-    bottom: 700px;
+    top: 72px;
     font-weight: bold;
     font-size: 3.5rem;
   }
@@ -999,9 +1151,7 @@ footer {
   h1 {
     font-size: 6rem;
     text-align: center;
-    padding-top: 40px;
-
-
+    padding-top: 10px;
   }
 
   h2 {
@@ -1020,12 +1170,79 @@ footer {
     font-size: 3.5rem;
   }
 
+  .cover_2 {
+    padding: 0;
+  }
+
   .cover_2 h1 {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 
   p {
    font-size: 3.5rem;
+  }
+
+  .mamonth img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 160px;
+    right: 400px;
+    width: 36%;
+   }
+
+  .dodo img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 160px;
+    right: 400px;
+    width: 36%;
+  }
+
+  .popug1 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 160px;
+    right: 350px;
+    width: 36%;
+  }
+
+  .gagarka img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 160px;
+    right: 400px;
+    width: 36%;
+  }
+
+  .kvagga img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 130px;
+    right: 430px;
+    width: 36%;
+  }
+
+  .golub img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 130px;
+    right: 400px;
+    width: 38%;
+  }
+
+  .popug2 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 160px;
+    right: 400px;
+    width: 36%;
   }
 
   .scale{
@@ -1345,6 +1562,69 @@ footer {
     font-size: 3.3rem;
   }
 
+  .mamonth img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+    width: 36%;
+   }
+
+  .dodo img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+    width: 36%;
+  }
+
+  .popug1 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+    width: 36%;
+  }
+
+  .gagarka img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 200px;
+    right: 330px;
+    width: 36%;
+  }
+
+  .kvagga img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 180px;
+    right: 360px;
+    width: 36%;
+  }
+
+  .golub img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 160px;
+    right: 320px;
+    width: 38%;
+  }
+
+  .popug2 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 180px;
+    right: 300px;
+    width: 36%;
+  }
+
   .vetka {
     padding-top: 100px;
   }
@@ -1378,11 +1658,6 @@ footer {
     font-weight: bold;
     font-size: 3.3rem;
 
-  }
-  .line{font-size: 6rem;
-    position: absolute;
-    right: 30px;
-    top: 60px;
   }
 
 
@@ -1424,6 +1699,13 @@ footer {
     bottom: 100px;
     font-weight: bold;
     font-size: 3.3rem;
+  }
+
+  .line_5 {
+    font-size: 8rem;
+    position: absolute;
+    right: 70px;
+    top: 50px;
   }
 
   .gagarka p {
@@ -1562,6 +1844,7 @@ footer {
     font-size: 3rem;
   }
 
+
   .scale{
     position: absolute;
     right: 2px;
@@ -1585,6 +1868,97 @@ footer {
 
   p {
    font-size: 3rem;
+  }
+
+  .mamonth img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 260px;
+    right: 100px;
+    width: 64%;
+   }
+
+   .mamonth {
+     background-size: 80%
+   }
+
+  .dodo img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 260px;
+    right: 100px;
+    width: 64%;
+  }
+
+  .dodo {
+    background-size: 70%;
+  }
+
+  .popug1 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 260px;
+    right: 100px;
+    width: 64%;
+  }
+
+  .popug1 {
+    background-size: 80%;
+  }
+
+  .gagarka img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 260px;
+    right: 100px;
+    width: 74%;
+  }
+
+  .gagarka {
+    background-size: 60%;
+  }
+
+  .kvagga img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 240px;
+    right: 120px;
+    width: 64%;
+  }
+
+  .kvagga {
+    background-size: 80%;
+  }
+
+  .golub img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 240px;
+    right: 100px;
+    width: 68%;
+  }
+
+  .golub {
+    background-size: 80%;
+  }
+
+  .popug2 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 260px;
+    right: 100px;
+    width: 64%;
+  }
+
+  .popug2 {
+    background-size: 80%;
   }
 
   .mamonth p {
@@ -1634,11 +2008,6 @@ footer {
 
   }
 
-  .dodo_2 {
-    width: 100%;
-    margin-left: 25%;
-  }
-
   .hrono_3 {
     position: absolute;
     right: 11%;
@@ -1678,12 +2047,6 @@ footer {
     width: 40%;
   }
 
-  .popug1_2 {
-    width: 54%;
-    margin-left: 20%;
-    margin-top: 5%;
-  }
-
   .hrono_5 {
     position: absolute;
     right: 11%;
@@ -1704,11 +2067,6 @@ footer {
     bottom: 6%;
     margin-left: 2.5%;
     width: 46%;
-  }
-
-  .gagarka_2 {
-    width: 32%;
-    margin-left: 30%;
   }
 
   .hrono_6 {
@@ -1748,12 +2106,6 @@ footer {
     width: 50%;
   }
 
-  .kvagga_2 {
-    width: 52%;
-    margin-left: 25%;
-    margin-top: 5%;
-  }
-
   .hrono_8 {
     position: absolute;
     right: 11%;
@@ -1774,11 +2126,6 @@ footer {
     bottom: 6%;
     margin-left: 2.5%;
     width: 40%;
-  }
-
-  .golub_2 {
-    width: 48%;
-    margin-left: 25%;
   }
 
   .hrono_9 {
@@ -1816,12 +2163,6 @@ footer {
     bottom: 6%;
     margin-left: 2.5%;
     width: 64%;
-  }
-
-  .popug2_2 {
-    width: 52%;
-    margin-left: 25%;
-    margin-top: 3%;
   }
 
   .hrono_11 {
@@ -1912,6 +2253,70 @@ footer {
     font-size: 2.5rem;
   }
 
+  .mamonth img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 310px;
+    right: 50px;
+    width: 64%;
+   }
+
+  .dodo img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 310px;
+    right: 50px;
+    width: 64%;
+  }
+
+  .popug1 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 310px;
+    right: 50px;
+    width: 64%;
+  }
+
+
+  .gagarka img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 310px;
+    right: 50px;
+    width: 74%;
+  }
+
+  .kvagga img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 300px;
+    right: 60px;
+    width: 64%;
+  }
+
+  .golub img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 310px;
+    right: 50px;
+    width: 68%;
+  }
+
+  .popug2 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 310px;
+    right: 50px;
+    width: 64%;
+  }
+
   .scale{
     position: absolute;
     right: 1px;
@@ -1954,13 +2359,6 @@ footer {
     width: 62%;
   }
 
-  .mamonth_2 {
-    width: 90%;
-    margin-top: 40%;
-    margin-left: -1%;
-
-  }
-
   .hrono_1 {
     position: absolute;
     right:11%;
@@ -1997,13 +2395,6 @@ footer {
     bottom: 6%;
     margin-left: 2.5%;
     width: 70%;
-
-  }
-
-  .dodo_2 {
-    width: 95%;
-    margin-left: -1%;
-    margin-top: 20%;
 
   }
 
@@ -2045,12 +2436,6 @@ footer {
     width: 60%;
   }
 
-  .popug1_2 {
-    width: 95%;
-    margin-left: -1%;
-    margin-top: 65%;
-  }
-
   .hrono_5 {
     position: absolute;
     right:11%;
@@ -2074,11 +2459,6 @@ footer {
     width: 70%;
   }
 
-  .gagarka_2 {
-    width: 75%;
-    margin-left: 8%;
-    margin-top: 30%;
-  }
 
   .hrono_6 {
     position: absolute;
@@ -2117,11 +2497,6 @@ footer {
     width: 80%;
   }
 
-  .kvagga_2 {
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 60%;
-  }
 
   .hrono_8 {
     position: absolute;
@@ -2145,11 +2520,6 @@ footer {
     width: 60%;
   }
 
-  .golub_2 {
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 60%;
-  }
 
   .hrono_9 {
     position: absolute;
@@ -2187,12 +2557,6 @@ footer {
     bottom: 6%;
     margin-left: 2.5%;
     width: 75%;
-  }
-
-  .popug2_2 {
-    width: 95%;
-    margin-left: -1%;
-    margin-top: 50%;
   }
 
   .hrono_11 {
@@ -2256,12 +2620,12 @@ footer {
     height: 21px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px){
 
   h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 10px;
 
 
   }
@@ -2280,6 +2644,125 @@ footer {
     text-align: center;
     padding-top: 30px;
     font-size: 2rem;
+  }
+
+  .scale{
+    position: absolute;
+    right: 1px;
+    top: calc(100vh + 360px);
+    border-radius: 6px;
+    width: 16px;
+    height: calc(100vh * 7.3);
+    background-color: #BDFFBC;
+    border: 2px solid black;
+    z-index:1;
+  }
+
+  .cover h1 {
+    padding-bottom: 50px;
+  }
+
+
+  .vetka2 {
+    width: auto;
+    height: calc( 100vh - 40rem );
+    display: block;
+  }
+
+  h1 {
+    padding: 10px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 10px;
+
+
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2rem;
+  }
+
+  .mamonth img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 170px;
+    right: 45px;
+    width: 64%;
+   }
+
+  .dodo img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 170px;
+    right: 45px;
+    width: 64%;
+  }
+
+  .popug1 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 170px;
+    right: 45px;
+    width: 64%;
+  }
+
+
+  .gagarka img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 170px;
+    right: 45px;
+    width: 74%;
+  }
+
+  .kvagga img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 170px;
+    right: 50px;
+    width: 64%;
+  }
+
+  .golub img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 170px;
+    right: 45px;
+    width: 68%;
+  }
+
+  .popug2 img {
+    opacity:0;
+    transition: 2s opacity;
+    position: absolute;
+    top: 170px;
+    right: 45px;
+    width: 64%;
   }
 
   .cover_2 h1 {
@@ -2322,12 +2805,6 @@ footer {
     font-size: 2rem;
   }
 
-  .mamonth_2 {
-    width: 90%;
-    margin-top: 40%;
-    margin-left: -1%;
-
-  }
 
   .hrono_1 {
     position: absolute;
@@ -2369,12 +2846,6 @@ footer {
 
   }
 
-  .dodo_2 {
-    width: 95%;
-    margin-left: -1%;
-    margin-top: 20%;
-
-  }
 
   .hrono_3 {
     position: absolute;
@@ -2414,12 +2885,6 @@ footer {
     width: 60%;
   }
 
-  .popug1_2 {
-    width: 95%;
-    margin-left: -1%;
-    margin-top: 55%;
-  }
-
   .hrono_5 {
     position: absolute;
     right:11%;
@@ -2442,12 +2907,6 @@ footer {
     margin-left: 2.5%;
     width: 55%;
     font-size: 2rem;
-  }
-
-  .gagarka_2 {
-    width: 75%;
-    margin-left: -1%;
-    margin-top: 20%;
   }
 
   .hrono_6 {
@@ -2489,12 +2948,6 @@ footer {
     width: 80%;
   }
 
-  .kvagga_2 {
-    width: 90%;
-    margin-left: -1%;
-    margin-top: 50%;
-  }
-
   .hrono_8 {
     position: absolute;
     right:11%;
@@ -2515,12 +2968,6 @@ footer {
     bottom: 6%;
     margin-left: 2.5%;
     width: 60%;
-  }
-
-  .golub_2 {
-    width: 85%;
-    margin-left: -1%;
-    margin-top: 40%;
   }
 
   .hrono_9 {
@@ -2559,12 +3006,6 @@ footer {
     bottom: 6%;
     margin-left: 2.5%;
     width: 75%;
-  }
-
-  .popug2_2 {
-    width: 95%;
-    margin-left: -1%;
-    margin-top: 50%;
   }
 
   .hrono_11 {
