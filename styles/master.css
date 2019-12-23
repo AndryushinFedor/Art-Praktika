@@ -2345,7 +2345,7 @@ footer {
   }
 
   .cover_2 h1 {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   p {
@@ -2625,7 +2625,7 @@ footer {
   h1 {
     font-size: 3.5rem;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 40px;
 
 
   }
@@ -2659,7 +2659,7 @@ footer {
   }
 
   .cover h1 {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
 
@@ -2667,10 +2667,7 @@ footer {
     width: auto;
     height: calc( 100vh - 40rem );
     display: block;
-  }
-
-  h1 {
-    padding: 10px;
+    margin-top: 50px;
   }
 
   .mamonth img {
