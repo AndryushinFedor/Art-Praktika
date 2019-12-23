@@ -92,7 +92,7 @@ p {
   opacity:0;
   transition: 2s opacity;
   position: absolute;
-  top: 200px;
+  top: 170px;
   right: 500px;
   width: 36%;
 
@@ -154,7 +154,7 @@ p {
   opacity:0;
   transition: 2s opacity;
   position: absolute;
-  top: 200px;
+  top: 140px;
   right: 500px;
   width: 36%;
 }
@@ -218,8 +218,8 @@ p {
   opacity:0;
   transition: 2s opacity;
   position: absolute;
-  top: 200px;
-  right: 550px;
+  top: 130px;
+  right: 530px;
   width: 36%;
  }
 
@@ -328,7 +328,7 @@ p {
   opacity:0;
   transition: 2s opacity;
   position: absolute;
-  top: 200px;
+  top: 170px;
   right: 600px;
   width: 36%;
  }
