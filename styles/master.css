@@ -105,7 +105,6 @@ p {
   background-size: 50%, 36%;
   background-position: center center, center center;
   background-repeat: no-repeat, no-repeat;
-
 }
 
 
@@ -1516,6 +1515,15 @@ footer {
     font-size: 3.3rem;
   }
 
+  .WWF {
+    margin-top: 20px;
+
+  }
+
+  .logo {
+    margin-top: 20px;
+  }
+
 
 }
 
@@ -1837,12 +1845,11 @@ footer {
   }
 
   .WWF {
-    width: 5%;
-
+    margin-top: 36px;
   }
 
   .logo {
-    width: 5%;
+    margin-top: 36px;
   }
 
 }
@@ -2560,12 +2567,14 @@ footer {
   }
 
   .WWF {
+    margin-top: 24px;
     width: 15px;
     height: 23px;
 
   }
 
   .logo {
+    margin-top: 24px;
     width: 23px;
     height: 21px;
   }
