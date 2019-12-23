@@ -35,14 +35,6 @@ h4 {
   font-size: 4rem;
 }
 
-. {
-  position: absolute;
-  top: calc( (100vh - 36%) /2 );
-  right: calc((100% - 64%) / 2);
-  width: 64%;
-  opacity:0;
-  transition: 2s opacity;
-}
 
 .scale{
   position: absolute;
@@ -213,8 +205,6 @@ p {
   right:4%;
   bottom: 114px;
 }
-
-
 
 .popug1 {
   height: 100vh;
@@ -462,16 +452,20 @@ p {
 
 
 .back {
-
-  padding-top: 20%;
+  padding-top: 5%;
   height: 70vh;
   background-color: #FC9C3C;
   position: relative;
 }
 
+.back h1 {
+  padding-top: 14%;
+}
+
 .hov {
   transition: 2s all;
 }
+
 .hov:hover{
   color: red;
   font-size: 10rem;
@@ -529,7 +523,7 @@ footer {
     background-size: 85%;
   }
   .mamonth:hover {
-    background-size: 85%, 40%;
+    background-size: 85%, 60%;
   }
 
   .dodo {
@@ -537,7 +531,7 @@ footer {
   }
 
   .dodo:hover {
-    background-size: 85%, 40%;
+    background-size: 85%, 60%;
   }
 
   .popug1 {
@@ -545,14 +539,14 @@ footer {
   }
 
   .popug1:hover {
-    background-size: 85%, 40%;
+    background-size: 85%, 60%;
   }
   .gagarka {
     background-size: 65%;
   }
 
   .gagarka:hover {
-    background-size: 65%, 40%;
+    background-size: 65%, 60%;
   }
 
   .kvagga {
@@ -560,7 +554,7 @@ footer {
   }
 
   .kvagga:hover {
-    background-size: 85%, 40%;
+    background-size: 85%, 60%;
   }
 
   .golub {
@@ -568,7 +562,7 @@ footer {
   }
 
   .golub:hover {
-    background-size: 85%, 40%;
+    background-size: 85%, 60%;
   }
 
   .popug2 {
@@ -576,7 +570,7 @@ footer {
   }
 
   .popug2:hover {
-    background-size: 85%, 40%;
+    background-size: 85%, 60%;
   }
 
 }
@@ -786,7 +780,11 @@ footer {
   }
 
   .back h1 {
-    padding-top: 22%;
+    padding-top: 16%;
+  }
+
+  .hov:hover{
+    font-size: 11rem;
   }
 
   .hrono_12 {
@@ -985,8 +983,16 @@ footer {
     top: 50px;
   }
 
+  .back {
+    padding-top: 5%;
+  }
+
   .back h1 {
-    padding-top: 22%;
+    padding-top: 14%;
+  }
+
+  .hov:hover{
+    font-size: 10rem;
   }
 
   .hrono_12 {
@@ -1172,6 +1178,10 @@ footer {
     font-size: 3.5rem;
   }
 
+  .line_5 {
+    top: 20px;
+  }
+
 
   .gagarka p {
     position: absolute;
@@ -1252,7 +1262,11 @@ footer {
   }
 
   .back h1 {
-    padding-top: 22%;
+    padding-top: 18%;
+  }
+
+  .hov:hover{
+    font-size: 8rem;
   }
 
   .hrono_12 {
@@ -1396,7 +1410,7 @@ footer {
     font-size: 8rem;
     position: absolute;
     right: 6%;
-    top: 76x§px;
+    top: 76px;
   }
 
   .gagarka p {
@@ -1482,7 +1496,11 @@ footer {
   }
 
   .back h1 {
-    padding-top: 26%;
+    padding-top: 20%;
+  }
+
+  .hov:hover{
+    font-size: 7.5rem;
   }
 
   .hrono_12 {
@@ -1781,7 +1799,11 @@ footer {
 
 
   .back h1 {
-    padding-top: 48%;
+    padding-top: 40%;
+  }
+
+  .hov:hover{
+    font-size: 6.2rem;
   }
 
   .hrono_12 {
@@ -2114,6 +2136,10 @@ footer {
     padding-top: 75%;
   }
 
+  .hov:hover{
+    font-size: 5.2rem;
+  }
+
   .hrono_12 {
     position: absolute;
     right:11%;
@@ -2204,6 +2230,9 @@ footer {
     display: block;
   }
 
+  .hov:hover{
+    font-size: 4.7rem;
+  }
 
 }
 
@@ -2494,7 +2523,11 @@ footer {
 
 
   .back h1 {
-    padding-top: 60%;
+    padding-top: 56%;
+  }
+
+  .hov:hover{
+    font-size: 4rem;
   }
 
   .hrono_12 {
